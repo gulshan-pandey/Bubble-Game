@@ -20,11 +20,5 @@ This is a simple bubble game created using HTML, CSS, and JavaScript.
 2. Click on the bubbles to pop them.
 3. Try to pop all the bubbles as quickly as possible!
 
-**Code Structure:**
-
-- **index.html:** Contains the HTML structure of the game, including the canvas element where the bubbles are displayed.
-- **style.css:** Contains the CSS styles for the game elements.
-- **script.js:** Contains the JavaScript code for generating bubbles, handling user interactions, and managing game logic.
-
 
 **Enjoy the game!**
