@@ -6,7 +6,7 @@ This is a simple bubble game created using HTML, CSS, and JavaScript.
 
 - Click on the bubbles to pop them.
 - Each bubble has a different counts on it.
-- The score increases as you pop right bubble else you lose😁.
+- The score increases as you pop right bubble 😁.
 
 **Features:**
 
