@@ -11,7 +11,7 @@ function makeBubble(){
     var group =""
     for(let i=0 ; i<=500 ;i++){
         let rn=(Math.floor(Math.random()*10))
-    group+=` <div class="bubble" id="${rn}" >${rn}</div>`;
+    group+=` <button class="bubble" id="${rn}" >${rn}</button>`;
 }
 document.querySelector("#bottom").innerHTML= group
 }
@@ -51,10 +51,14 @@ function runtime(){
  function checkScore(bubblePressed){
     // console.log(bubblePressed.id)
     if(parseInt(document.querySelector("#hitting").innerText) ==parseInt(bubblePressed.id)){
+
         score+= 10;
+
         document.querySelector("#Score").innerText=score
         makeBubble()
         HitRandom()
+        }else{
+            bubblePressed.style.backgroundColor="red" 
         }
 
 }
